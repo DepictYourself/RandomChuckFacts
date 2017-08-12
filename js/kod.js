@@ -1,8 +1,13 @@
-var szamlalo = 1;
+var chuckApi = "https://api.chucknorris.io/jokes/random";
+var httpRequest = new XMLHttpRequest();
 
-window.addEventListener("load", anothaQuote());
+window.addEventListener("load", request());
 
-function anothaQuote() {
-    document.getElementById("quoteParagraph").innerHTML = "Teszt " + szamlalo;
-    szamlalo = szamlalo + 1;
-}
+function request(){
+    httpRequest.open("GET", "https://api.chucknorris.io/jokes/random");
+    httpRequest.onload = function(){
+        var chuckJson = JSON.parse(httpRequest.responseText);
+        console.log(chuckJson);
+    };
+    
+};
