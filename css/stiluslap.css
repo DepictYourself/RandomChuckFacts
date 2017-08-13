@@ -1,3 +1,60 @@
+/* importing google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ultra');
+/* 
+font-family: 'Ultra', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+body {
+    background: #e2e1e0;
+}
+
+body, input, textarea, select, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
 h1 {
-    color: #333;
+    font-family: "Ultra", serif;
+    color: rgb(109, 76, 65);
+    font-size: 36px;
+    text-shadow: 4px 4px 4px #aaa
+}
+
+#badge {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+section {
+    background: #ffffff;
+    max-width: 540px;
+    margin: auto;
+    text-align: justify;
+    padding: 36px 24px;
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#quoteParagraph {
+    max-width: 540px;
+    min-height: 160px;
+    line-height: 1.4;
+}
+
+footer {    
+    background-color: #2A2B2A;
+    color: #f8f4e3;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
 }

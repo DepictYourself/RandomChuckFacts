@@ -2,25 +2,27 @@
 <html>
     <head>
         <title>Random Chuck Norris facts</title>
-        <link rel="icon" type="image/png" href="https://assets.chucknorris.host/img/avatar/chuck-norris.png">
-        <link rel="stylesheet" href="css/stiluslap.css">
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="icon" type="image/png" href="https://assets.chucknorris.host/img/avatar/chuck-norris.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/stiluslap.css">        
     </head>
     <body>
+         <header>
+             <h1>CHUCK</h1> <img src="stuff/star-inside-a-circle_shadow-01.svg" alt="texas ranger badge" id="badge"> <h1>NORRIS</h1>
+         </header>
 
-        <header>
-            <h1>Have you heard this fact about Chuck Norris ?</h1>
-        </header>
-        
         <section>
             <p id="quoteParagraph"></p>
-            <button type="button" name="actionButton" onclick="loadJoke()">I want another one!</button>
+            <button type="button" onclick="loadJoke()">I want another one!</button>
         </section>
 
         <footer>
             <p>Made by Agoston Toth for the freeCodeCamp challange</p>
         </footer>
-        <script src="js/kod.js"></script>
 
+        <script src="js/kod.js"></script>
     </body>
 </html>
