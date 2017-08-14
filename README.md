@@ -1,5 +1,7 @@
 # RandomChuckFacts
-Random Chuck Norris facts generator page. learning AJAX and JSON
+Random Chuck Norris facts generator page.
 
-InCase I need to find out what is this project.
-You tried to make a Chuck Norris fact generator page for a freeCodeCamp challange.
+Hi!
+
+I made this :)
+Basically to learn AJAX and JSON. Found this random API that gives random chuck norris jokes. So I made a website out of it.
