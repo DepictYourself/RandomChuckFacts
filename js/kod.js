@@ -10,6 +10,8 @@ This is done by eventlistener and the loadJoke function.
 */
 window.addEventListener("load", loadJoke());
 
+document.getElementById("button").addEventListener("click", loadJoke);
+
 /*
 This function sends a http request to the api
 When we get the requested joke we put in on the page.
